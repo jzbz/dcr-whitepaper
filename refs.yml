@@ -1,0 +1,631 @@
+dcp0000:
+  type: web
+  title: "DCP-0000: DCP Process"
+  author: "Collins, Dave"
+  date: 2017
+  url: https://github.com/decred/dcps/blob/master/dcp-0000/dcp-0000.mediawiki
+
+dcp0001:
+  type: web
+  title: "DCP-0001: New Stake Difficulty Algorithm"
+  author: "Collins, Dave"
+  date: 2017
+  url: https://github.com/decred/dcps/blob/master/dcp-0001/dcp-0001.mediawiki
+
+dcp0002:
+  type: web
+  title: "DCP-0002: SHA256 Opcode"
+  author: "Collins, Dave"
+  date: 2017
+  url: https://github.com/decred/dcps/blob/master/dcp-0002/dcp-0002.mediawiki
+
+dcp0003:
+  type: web
+  title: "DCP-0003: Relative Lock Time Support"
+  author: "Collins, Dave"
+  date: 2017
+  url: https://github.com/decred/dcps/blob/master/dcp-0003/dcp-0003.mediawiki
+
+dcp0004:
+  type: web
+  title: "DCP-0004: Fix LN Sequence Locks View"
+  author: "Collins, Dave"
+  date: 2019
+  url: https://github.com/decred/dcps/blob/master/dcp-0004/dcp-0004.mediawiki
+
+dcp0005:
+  type: web
+  title: "DCP-0005: Block Header Commitments"
+  author: "Collins, Dave"
+  date: 2019
+  url: https://github.com/decred/dcps/blob/master/dcp-0005/dcp-0005.mediawiki
+
+dcp0006:
+  type: web
+  title: "DCP-0006: Decentralized Treasury"
+  author: "Peereboom, Marco"
+  date: 2020
+  url: https://github.com/decred/dcps/blob/master/dcp-0006/dcp-0006.mediawiki
+
+dcp0007:
+  type: web
+  title: "DCP-0007: Revert Treasury Expenditure Policy"
+  author: "Degiovani, Matheus"
+  date: 2021
+  url: https://github.com/decred/dcps/blob/master/dcp-0007/dcp-0007.mediawiki
+
+dcp0008:
+  type: web
+  title: "DCP-0008: Explicit Version Upgrades"
+  author: "Collins, Dave"
+  date: 2021
+  url: https://github.com/decred/dcps/blob/master/dcp-0008/dcp-0008.mediawiki
+
+dcp0009:
+  type: web
+  title: "DCP-0009: Automatic Ticket Revocations"
+  author: "Staudt, Ryan"
+  date: 2021
+  url: https://github.com/decred/dcps/blob/master/dcp-0009/dcp-0009.mediawiki
+
+dcp0010:
+  type: web
+  title: "DCP-0010: Change PoW/PoS Subsidy Split To 10/80"
+  author: "Collins, Dave"
+  date: 2021
+  url: https://github.com/decred/dcps/blob/master/dcp-0010/dcp-0010.mediawiki
+
+dcp0011:
+  type: web
+  title: "DCP-0011: Change PoW to BLAKE3 and ASERT"
+  author: "Collins, Dave"
+  date: 2023
+  url: https://github.com/decred/dcps/blob/master/dcp-0011/dcp-0011.mediawiki
+
+dcp0012:
+  type: web
+  title: "DCP-0012: Change PoW/PoS Subsidy Split To 1/89"
+  author: "Collins, Dave"
+  date: 2023
+  url: https://github.com/decred/dcps/blob/master/dcp-0012/dcp-0012.mediawiki
+
+dcp0013:
+  type: web
+  title: "DCP-0013: New Max Treasury Expenditure Policy"
+  author: "Collins, Dave"
+  date: 2025
+  url: https://github.com/decred/dcps/blob/master/dcp-0013/dcp-0013.mediawiki
+
+dcrd:
+  type: repository
+  title: "dcrd: Decred daemon, the reference full-node implementation"
+  author: "Decred developers"
+  date: 2026
+  url: https://github.com/decred/dcrd
+
+dcrdocs:
+  type: web
+  title: "Decred Documentation"
+  author: "Decred contributors"
+  date: 2026
+  url: https://docs.decred.org/
+
+dtb001:
+  type: report
+  title: "DTB001: Decred Technical Brief"
+  author: "Jepson, Christina"
+  date: 2015
+  url: https://decred.org/dtb001.pdf
+
+bitcoin:
+  type: report
+  title: "Bitcoin: A Peer-to-Peer Electronic Cash System"
+  author: "Nakamoto, Satoshi"
+  date: 2008
+  url: https://bitcoin.org/bitcoin.pdf
+
+poa:
+  type: article
+  title: "Proof of Activity: Extending Bitcoin's Proof of Work via Proof of Stake"
+  author:
+    - "Bentov, Iddo"
+    - "Lee, Charles"
+    - "Mizrahi, Alex"
+    - "Rosenfeld, Meni"
+  date: 2014
+  parent:
+    type: periodical
+    title: ACM SIGMETRICS Performance Evaluation Review
+    volume: 42
+    issue: 3
+  page-range: 34-37
+
+memcoin2:
+  type: report
+  title: "MEMCOIN2: A Hybrid Proof-of-Work, Proof-of-Stake Crypto-currency"
+  author: "Mackenzie, Adam"
+  date: 2013
+  url: https://decred.org/research/mackenzie2013.pdf
+
+blake:
+  type: report
+  title: "SHA-3 proposal BLAKE, version 1.3"
+  author:
+    - "Aumasson, Jean-Philippe"
+    - "Henzen, Luca"
+    - "Meier, Willi"
+    - "Phan, Raphael C.-W."
+  date: 2010
+  url: https://www.aumasson.jp/blake/blake.pdf
+
+blake3:
+  type: report
+  title: "BLAKE3: one function, fast everywhere"
+  author:
+    - "O'Connor, Jack"
+    - "Aumasson, Jean-Philippe"
+    - "Neves, Samuel"
+    - "Wilcox-O'Hearn, Zooko"
+  date: 2020
+  url: https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf
+
+fips180:
+  type: report
+  title: "Secure Hash Standard (SHS), FIPS PUB 180-4"
+  author: "National Institute of Standards and Technology"
+  date: 2015
+  url: https://doi.org/10.6028/NIST.FIPS.180-4
+
+ripemd160:
+  type: article
+  title: "RIPEMD-160: A Strengthened Version of RIPEMD"
+  author:
+    - "Dobbertin, Hans"
+    - "Bosselaers, Antoon"
+    - "Preneel, Bart"
+  date: 1996
+  parent:
+    type: proceedings
+    title: Fast Software Encryption (FSE 1996)
+    publisher: Springer
+
+sec1:
+  type: report
+  title: "SEC 1: Elliptic Curve Cryptography, version 2.0"
+  author: "Certicom Research"
+  date: 2009
+  url: https://www.secg.org/sec1-v2.pdf
+
+sec2:
+  type: report
+  title: "SEC 2: Recommended Elliptic Curve Domain Parameters, version 2.0"
+  author: "Certicom Research"
+  date: 2010
+  url: https://www.secg.org/sec2-v2.pdf
+
+rfc6979:
+  type: report
+  title: "Deterministic Usage of the Digital Signature Algorithm (DSA) and Elliptic Curve Digital Signature Algorithm (ECDSA), RFC 6979"
+  author: "Pornin, Thomas"
+  date: 2013
+  url: https://www.rfc-editor.org/rfc/rfc6979
+
+rfc2119:
+  type: report
+  title: "Key words for use in RFCs to Indicate Requirement Levels, RFC 2119"
+  author: "Bradner, Scott"
+  date: 1997
+  url: https://www.rfc-editor.org/rfc/rfc2119
+
+rfc8032:
+  type: report
+  title: "Edwards-Curve Digital Signature Algorithm (EdDSA), RFC 8032"
+  author:
+    - "Josefsson, Simon"
+    - "Liusvaara, Ilari"
+  date: 2017
+  url: https://www.rfc-editor.org/rfc/rfc8032
+
+schnorr:
+  type: article
+  title: "Efficient Signature Generation by Smart Cards"
+  author: "Schnorr, Claus-Peter"
+  date: 1991
+  parent:
+    type: periodical
+    title: Journal of Cryptology
+    volume: 4
+    issue: 3
+  page-range: 161-174
+
+ed25519:
+  type: article
+  title: "High-speed high-security signatures"
+  author:
+    - "Bernstein, Daniel J."
+    - "Duif, Niels"
+    - "Lange, Tanja"
+    - "Schwabe, Peter"
+    - "Yang, Bo-Yin"
+  date: 2012
+  parent:
+    type: periodical
+    title: Journal of Cryptographic Engineering
+    volume: 2
+    issue: 2
+  page-range: 77-89
+
+siphash:
+  type: article
+  title: "SipHash: A Fast Short-Input PRF"
+  author:
+    - "Aumasson, Jean-Philippe"
+    - "Bernstein, Daniel J."
+  date: 2012
+  parent:
+    type: proceedings
+    title: Progress in Cryptology (INDOCRYPT 2012)
+    publisher: Springer
+
+golomb:
+  type: article
+  title: "Run-length encodings"
+  author: "Golomb, Solomon W."
+  date: 1966
+  parent:
+    type: periodical
+    title: IEEE Transactions on Information Theory
+    volume: 12
+    issue: 3
+  page-range: 399-401
+
+treap:
+  type: article
+  title: "Randomized Search Trees"
+  author:
+    - "Seidel, Raimund"
+    - "Aragon, Cecilia R."
+  date: 1996
+  parent:
+    type: periodical
+    title: Algorithmica
+    volume: 16
+    issue: 4-5
+  page-range: 464-497
+
+merkle:
+  type: article
+  title: "A Digital Signature Based on a Conventional Encryption Function"
+  author: "Merkle, Ralph C."
+  date: 1987
+  parent:
+    type: proceedings
+    title: Advances in Cryptology (CRYPTO '87)
+    publisher: Springer
+
+bip16:
+  type: web
+  title: "BIP 16: Pay to Script Hash"
+  author: "Andresen, Gavin"
+  date: 2012
+  url: https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki
+
+bip32:
+  type: web
+  title: "BIP 32: Hierarchical Deterministic Wallets"
+  author: "Wuille, Pieter"
+  date: 2012
+  url: https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki
+
+bip39:
+  type: web
+  title: "BIP 39: Mnemonic code for generating deterministic keys"
+  author:
+    - "Palatinus, Marek"
+    - "Rusnak, Pavol"
+    - "Voisine, Aaron"
+    - "Bowe, Sean"
+  date: 2013
+  url: https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
+
+bip43:
+  type: web
+  title: "BIP 43: Purpose Field for Deterministic Wallets"
+  author:
+    - "Palatinus, Marek"
+    - "Rusnak, Pavol"
+  date: 2014
+  url: https://github.com/bitcoin/bips/blob/master/bip-0043.mediawiki
+
+bip44:
+  type: web
+  title: "BIP 44: Multi-Account Hierarchy for Deterministic Wallets"
+  author:
+    - "Palatinus, Marek"
+    - "Rusnak, Pavol"
+  date: 2014
+  url: https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki
+
+bip65:
+  type: web
+  title: "BIP 65: OP_CHECKLOCKTIMEVERIFY"
+  author: "Todd, Peter"
+  date: 2014
+  url: https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki
+
+bip66:
+  type: web
+  title: "BIP 66: Strict DER signatures"
+  author: "Wuille, Pieter"
+  date: 2015
+  url: https://github.com/bitcoin/bips/blob/master/bip-0066.mediawiki
+
+bip68:
+  type: web
+  title: "BIP 68: Relative lock-time using consensus-enforced sequence numbers"
+  author:
+    - "Friedenbach, Mark"
+    - "BtcDrak"
+    - "Dorier, Nicolas"
+    - "kinoshitajona"
+  date: 2015
+  url: https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki
+
+bip112:
+  type: web
+  title: "BIP 112: CHECKSEQUENCEVERIFY"
+  author:
+    - "BtcDrak"
+    - "Friedenbach, Mark"
+    - "Lombrozo, Eric"
+  date: 2015
+  url: https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki
+
+bip113:
+  type: web
+  title: "BIP 113: Median time-past as endpoint for lock-time calculations"
+  author:
+    - "Kerin, Thomas"
+    - "Friedenbach, Mark"
+  date: 2015
+  url: https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki
+
+bip9:
+  type: web
+  title: "BIP 9: Version bits with timeout and delay"
+  author:
+    - "Wuille, Pieter"
+    - "Todd, Peter"
+    - "Maxwell, Greg"
+    - "Russell, Rusty"
+  date: 2015
+  url: https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki
+
+bip157:
+  type: web
+  title: "BIP 157: Client Side Block Filtering"
+  author:
+    - "Osuntokun, Olaoluwa"
+    - "Akselrod, Alex"
+    - "Posen, Jim"
+  date: 2017
+  url: https://github.com/bitcoin/bips/blob/master/bip-0157.mediawiki
+
+bip158:
+  type: web
+  title: "BIP 158: Compact Block Filters for Light Clients"
+  author:
+    - "Osuntokun, Olaoluwa"
+    - "Akselrod, Alex"
+  date: 2017
+  url: https://github.com/bitcoin/bips/blob/master/bip-0158.mediawiki
+
+bip155:
+  type: web
+  title: "BIP 155: addrv2 message"
+  author: "Laan, Wladimir J. van der"
+  date: 2019
+  url: https://github.com/bitcoin/bips/blob/master/bip-0155.mediawiki
+
+bip173:
+  type: web
+  title: "BIP 173: Base32 address format for native v0-16 witness outputs"
+  author:
+    - "Wuille, Pieter"
+    - "Maxwell, Greg"
+  date: 2017
+  url: https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki
+
+bip340:
+  type: web
+  title: "BIP 340: Schnorr Signatures for secp256k1"
+  author:
+    - "Wuille, Pieter"
+    - "Nick, Jonas"
+    - "Ruffing, Tim"
+  date: 2020
+  url: https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki
+
+slip44:
+  type: web
+  title: "SLIP-0044: Registered coin types for BIP-0044"
+  author:
+    - "Rusnak, Pavol"
+    - "Palatinus, Marek"
+  date: 2014
+  url: https://github.com/satoshilabs/slips/blob/master/slip-0044.md
+
+asert:
+  type: web
+  title: "ASERT Difficulty Adjustment Algorithm (aserti3-2d)"
+  author:
+    - "freetrader"
+    - "Toomim, Jonathan"
+    - "Culianu, Calin"
+    - "Lundeberg, Mark"
+  date: 2020
+  url: https://upgradespecs.bitcoincashnode.org/2020-11-15-asert/
+
+asert-static:
+  type: report
+  title: "Static difficulty adjustments, with absolutely scheduled exponentially rising targets (DA-ASERT), v.2"
+  author: "Lundeberg, Mark B."
+  date: 2020
+  url: http://toom.im/files/da-asert.pdf
+
+coinshufflepp:
+  type: article
+  title: "P2P Mixing and Unlinkable Bitcoin Transactions"
+  author:
+    - "Ruffing, Tim"
+    - "Moreno-Sanchez, Pedro"
+    - "Kate, Aniket"
+  date: 2017
+  parent:
+    type: proceedings
+    title: Network and Distributed System Security Symposium (NDSS 2017)
+
+ntruprime:
+  type: article
+  title: "NTRU Prime: Reducing Attack Surface at Low Cost"
+  author:
+    - "Bernstein, Daniel J."
+    - "Chuengsatiansup, Chitchanok"
+    - "Lange, Tanja"
+    - "Vredendaal, Christine van"
+  date: 2017
+  parent:
+    type: proceedings
+    title: Selected Areas in Cryptography (SAC 2017)
+    publisher: Springer
+
+dcnets:
+  type: article
+  title: "The Dining Cryptographers Problem: Unconditional Sender and Recipient Untraceability"
+  author: "Chaum, David"
+  date: 1988
+  parent:
+    type: periodical
+    title: Journal of Cryptology
+    volume: 1
+    issue: 1
+  page-range: 65-75
+
+lightning:
+  type: report
+  title: "The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments"
+  author:
+    - "Poon, Joseph"
+    - "Dryja, Thaddeus"
+  date: 2016
+  url: https://lightning.network/lightning-network-paper.pdf
+
+politeia:
+  type: repository
+  title: "Politeia: a system for storing off-chain data that is both versioned and timestamped"
+  author: "Decred developers"
+  date: 2026
+  url: https://github.com/decred/politeia
+
+dcrdex:
+  type: repository
+  title: "DCRDEX: the Decred decentralized exchange"
+  author: "Decred developers"
+  date: 2026
+  url: https://github.com/decred/dcrdex
+
+dcrwallet:
+  type: repository
+  title: "dcrwallet: a secure Decred wallet daemon"
+  author: "Decred developers"
+  date: 2026
+  url: https://github.com/decred/dcrwallet
+
+vspd:
+  type: repository
+  title: "vspd: a voting service provider for Decred"
+  author: "Decred developers"
+  date: 2026
+  url: https://github.com/decred/vspd
+
+base58:
+  type: web
+  title: "Base58Check encoding"
+  author: "Bitcoin Wiki contributors"
+  date: 2011
+  url: https://en.bitcoin.it/wiki/Base58Check_encoding
+
+chacha:
+  type: report
+  title: "ChaCha, a variant of Salsa20"
+  author: "Bernstein, Daniel J."
+  date: 2008
+  url: https://cr.yp.to/chacha/chacha-20080128.pdf
+
+rfc8439:
+  type: report
+  title: "ChaCha20 and Poly1305 for IETF Protocols, RFC 8439"
+  author:
+    - "Nir, Yoav"
+    - "Langley, Adam"
+  date: 2018
+  url: https://www.rfc-editor.org/rfc/rfc8439
+
+rfc2104:
+  type: report
+  title: "HMAC: Keyed-Hashing for Message Authentication, RFC 2104"
+  author:
+    - "Krawczyk, Hugo"
+    - "Bellare, Mihir"
+    - "Canetti, Ran"
+  date: 1997
+  url: https://www.rfc-editor.org/rfc/rfc2104
+
+rfc4648:
+  type: report
+  title: "The Base16, Base32, and Base64 Data Encodings, RFC 4648"
+  author: "Josefsson, Simon"
+  date: 2006
+  url: https://www.rfc-editor.org/rfc/rfc4648
+
+x690:
+  type: report
+  title: "Information technology – ASN.1 encoding rules: Specification of Basic Encoding Rules (BER), Canonical Encoding Rules (CER) and Distinguished Encoding Rules (DER), Recommendation ITU-T X.690"
+  author: "International Telecommunication Union"
+  date: 2021
+  url: https://www.itu.int/rec/T-REC-X.690
+
+dcrlnd:
+  type: repository
+  title: "dcrlnd: Decred Lightning Network daemon"
+  author: "Decred developers"
+  date: 2026
+  url: https://github.com/decred/dcrlnd
+
+dcrtime:
+  type: repository
+  title: "dcrtime: a timestamping service anchored to the Decred blockchain"
+  author: "Decred developers"
+  date: 2026
+  url: https://github.com/decred/dcrtime
+
+atomicswap:
+  type: repository
+  title: "atomicswap: on-chain atomic swaps for Decred and other cryptocurrencies"
+  author: "Decred developers"
+  date: 2026
+  url: https://github.com/decred/atomicswap
+
+bolts:
+  type: web
+  title: "BOLT: Basis of Lightning Technology (Lightning Network specifications)"
+  author: "Lightning Network developers"
+  date: 2016
+  url: https://github.com/lightning/bolts
+
+dicemixlight:
+  type: web
+  title: "DiceMix Light"
+  author: "DiceMix contributors"
+  date: 2017
+  url: https://github.com/BlockstreamResearch/dicemix/blob/master/doc/protocol.md

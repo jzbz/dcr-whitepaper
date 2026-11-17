@@ -1,0 +1,4 @@
+# Build output. build.sh writes outside the tree when it can; this is its
+# fallback directory, and PDFs are never committed.
+/build/
+*.pdf
