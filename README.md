@@ -14,6 +14,8 @@ protocol.
 
 | | |
 | --- | --- |
+| Read online | <https://docs.dcr.pw/whitepaper/> |
+| PDF | <https://docs.dcr.pw/whitepaper/decred-whitepaper.pdf> |
 | Version | 1.0 |
 | Reference implementation | [dcrd](https://github.com/decred/dcrd), commit `46e9df48109a` (master, 5 November 2026) |
 | Length | about 420 pages |
